@@ -1,0 +1,10 @@
+[gui]
+	recentrepo = C:/Users/CelestiuM/scsc
+[user]
+	name = BlackAdam7
+	email = 37216694+BlackAdam7@users.noreply.github.com
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
